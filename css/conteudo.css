@@ -1,0 +1,168 @@
+.sobre-nos {
+    background-color: var(--branco-suave);
+    font-family: var(--roboto);
+    display: flex;
+    flex-direction: row;
+  }
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+  width: 50%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: large;
+  justify-content: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: 3%;
+  color: var(--azul-escuro-logo);
+  font-family: var(--poppins);
+}
+
+.texto p {
+  color: var(--preto-suave);
+}
+
+strong {
+  font-weight: 600;
+}
+
+.imagem-moca {
+  width: 50%;
+}
+
+.imagem-moca img {
+  width: 100%;
+}
+
+.imagem_freepik {
+  cursor: default;
+}
+
+.contato {
+  background-color: var(--cinza-claro);
+  padding-top: 2%;
+  justify-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.foto-sofa {
+  width: 50%;
+}
+
+h2 {
+  font-family: var(--roboto);
+  color: var(--preto-suave);
+}
+  
+.mandar-mensagem {
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+}
+
+.mandar-mensagem form {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  justify-items: center;
+  font-family: var(--roboto);
+  color: #161616;
+  font-weight: 500;
+	text-shadow: 1px 1px 0px rgb(255, 255, 255);
+}
+
+.input-contato {
+  margin-bottom: 4%;
+  border-radius: 5px;
+  padding: 1.5% 1.5% 1.5% 3%;
+  color: var(--azul-escuro-logo);
+  background-color: rgba(255, 255, 255, 0.74);
+  border: none;
+}
+
+.dados-contato label {
+  margin-bottom: 1%;
+}
+
+.checkbox-enviar {
+  display: flex;
+  flex-direction: column;
+  justify-self : center;
+}
+
+.checkbox {
+	text-shadow: 1px 1px 5px rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: small;
+  cursor: pointer;
+}
+
+.enviar {
+  border-radius: 5px;
+  background-color: var(--azul-escuro-logo);
+  padding: 1%;
+  border: none;
+  color: var(--branco-suave);
+	box-shadow: 1px 1px 3px 1px #05090F;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  transform: scale(1.02);
+  background-color: #2e7c7c;
+  opacity: 90%;
+  transition: 0.3s;
+}
+
+.enviar:active {
+  background-color: #699696;
+}
+
+.como-alugar {
+  background-color: var(--branco-suave);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.como-alugar h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.imagens-como-alugar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 0 5% 0;
+  width: 90%;
+  margin-left: 5%;
+  font-family: var(--roboto);
+}
+
+.imagens-como-alugar p {
+  width: 50%;
+  text-align: center;
+}
+
+.imagem-corretora, .imagem-contrato, .imagem-morando {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+}
+
+.imagens-como-alugar img {
+  width: 50%;
+}

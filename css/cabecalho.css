@@ -1,0 +1,129 @@
+.cabecalho-cima {
+  background-color: var(--cinza-claro);
+  display: flex;
+  flex-direction: row;
+  padding: 0.2em;
+  justify-content: center;
+  opacity: 95%;
+}
+
+.email-telefone {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.08em;
+  align-items: center;
+  margin-left: 5em;
+}
+
+.email-telefone p {
+  margin-right: 5em;
+  font-family: var(--roboto);
+  font-weight: 500;
+}
+
+.email-telefone p:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+  opacity: 80%;
+}
+
+.email-telefone p:active {
+  opacity: 50%;
+}
+
+.imagens-redes-sociais img {
+  width: 2em;
+  height: 2em;
+  margin-left: 2em;
+}
+
+.imagens-redes-sociais img:hover {
+  opacity: 50%;
+  transition: 0.3s;
+}
+
+.imagens-redes-sociais img:active {
+  opacity: 10%;
+  transition: 0.3s;
+}
+
+.cabecalho-baixo {
+  background-color: var(--azul-escuro-logo);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.box-logo {
+  width: 20%;
+}
+
+.logo {
+  height: 5.2em;
+  padding: 2% 2% 2% 6%;
+}
+
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  height: 5em;
+}
+
+.menu ul {
+  color: var(--branco-suave);
+  display: flex;
+  flex-direction: row;
+  font-family: var(--poppins);
+  font-size: 1.2em;
+  height: 5em;
+  align-items: center;
+}
+
+.menu a {
+  margin-right: 3em;
+}
+
+.botao-sobre-nos:hover, .botao-contato:hover, .botao-alugar:hover {
+  transform: scale(1.1);
+  color: #ffffffa6;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.botao-sobre-nos:active, .botao-contato:active, .botao-alugar:active {
+  color: #586f8d;
+}
+
+.campo-de-busca {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+}
+
+.busca {
+  background-color: #343e4b;
+  border-radius: 7px;
+  padding: 3% 3% 3% 8%;
+  width: 20em;
+  color: #FFFFFF;
+  border: none;
+  font-weight: bold;
+}
+
+.busca:hover {
+  box-shadow: 2px 2px 8px 1px #060b11;
+  transition: 0.3s;
+}
+
+.lupa {
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+
+.lupa:hover {
+  transform: scale(1.1);
+  opacity: 70%;
+  transition: 0.3s;
+}

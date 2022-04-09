@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Seu corretor - moradia para universitários</title>
+    <link rel="icon" type="image/x-icon" href="assets/seucorretor_favicon.png"/>
+    <link href="css/reset.css" rel="stylesheet"/>
+    <link href="css/base.css" rel="stylesheet"/>
+    <link href="css/cabecalho.css" rel="stylesheet"/>
+    <link href="css/conteudo.css" rel="stylesheet"/>
+    <link href="css/rodape.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <section class="cabecalho-cima">
+        <nav class="imagens-redes-sociais">
+          <a href="http://www.facebook.com/" target="_blank"><img src="assets/facebook.png"/></a>
+          <a href="https://twitter.com/" target="_blank"><img src="assets/twitter.png"/></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="assets/instagram.png"/></a>
+        </nav>
+        <div class="email-telefone">
+          <a href="mailto:contato@email.com"><p>contato@email.com</p></a>
+          <a href="tel:(11)12345-6789"><p>(xx)12345-6789</p></a>
+        </div>
+      </section>
+
+      <section class="cabecalho-baixo">
+        <figure class="box-logo">
+          <a href="index.html"><img class="logo" src="assets/seucorretor_logo.png"/></a>
+        </figure>
+        <nav class="menu">
+          <ul>
+            <a class="botao-sobre-nos" onclick="goTo('about')">Sobre nós</a>
+            <a class="botao-contato" onclick="goTo('contact')">Contato</a>
+            <a class="botao-alugar" onclick="goTo('how-to')">Como alugar</a>
+          </ul>
+        </nav>
+        
+        <section class="campo-de-busca">
+          <form>
+              <input type="search" class="busca" placeholder="Busque por cidade, bairro ou rua">
+          </form>
+          <figure>
+            <img class="lupa" src="assets/lupa.png"/>
+          </figure>
+        </section>
+      </section>
+    </header>
+
+    <main>
+      <section id="about" class="sobre-nos">
+        <section class="texto">
+          <h1>Sobre nós</h1>
+          <p>Seu corretor é a empresa certa para te ajudar a <strong>alugar um apartamento</strong> para sua vida corrida de universitário! A empresa encontra, reforma e prepara apartamentos para te receber, e além disso <strong>te auxilia a encontrar colegas de apartamento se necessário</strong>. Assim, você pode relaxar e se preocupar só com as provas &#128521;
+        </section>
+        <figure class="imagem-moca">
+          <a href="https://br.freepik.com/fotos-vetores-gratis/cafe" class="imagem_freepik" target="_blank"><img src="assets/mulher-sentada-imagem-cortada.jpg" title="Café foto criado por lookstudio - br.freepik.com"></a>
+        </figure>
+      </section>
+
+      <section id="contact" class="contato">
+        <figure class="foto-sofa">
+          <a href="https://br.freepik.com/fotos-vetores-gratis/pessoas" class="imagem_freepik" target="_blank"><img src="assets/homem-sofa-editada.png" title="Pessoas foto criado por karlyukav - br.freepik.com"/></a>
+        </figure>
+        <section class="mandar-mensagem">
+          <h1>Contato</h1>
+          <h2>Nos mande uma mensagem e entraremos em contato o mais breve possível! &#128516;</h2>
+          <form class="dados-contato">
+            <label class="dado" for="nome-completo">Nome e sobrenome</label>
+            <input type="text" id="nome-completo" class="input-contato" required>
+    
+            <label class="dado" for="email">E-mail</label>
+            <input  id="email" class="input-contato" required placeholder="user@domain.com" pattern='\w{1-32}'>
+    
+            <label class="dado" for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-contato" required placeholder="(xx) xxxxx-xxxx">
+    
+            <label class="dado" for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="8" id="Mensagem" class="input-contato" required></textarea>
+            
+            <section class="checkbox-enviar">
+              <label class="checkbox"><input type="checkbox" checked>Quero receber novidades e outras informações por e-mail</label>
+              <input class="enviar" type="submit" value="Enviar">
+            </section>
+          </form>
+        </section>
+      </section>
+      <div id="how-to" class="como-alugar">
+        <h1>Como alugar</h1>
+        <section class="imagens-como-alugar">
+          <figure class="imagem-corretora">
+            <a href='https://br.freepik.com/fotos-vetores-gratis/cidade' class="imagem_freepik" target="_blank"><img src="assets/corretora.png" title="Cidade vetor criado por freepik - br.freepik.com"></a>
+            <p>Com um de nossos corretores vamos encontrar uma república perfeita para as suas necessidades</p>
+          </figure>
+          <figure class="imagem-contrato">
+            <a href='https://br.freepik.com/fotos-vetores-gratis/negocio' class="imagem_freepik" target="_blank"><img src="assets/contrato.png" title="Negócio vetor criado por storyset - br.freepik.com"></a>
+            <p>Escolhido o lugar, você nos manda todos os documentos para a checagem</p>
+          </figure>
+          <figure class="imagem-morando">
+            <a href='https://br.freepik.com/fotos-vetores-gratis/pessoas' class="imagem_freepik" target="_blank"><img src="assets/morando.png" title="Pessoas vetor criado por pch.vector - br.freepik.com"></a>
+            <p>Com os documentos aprovados, é só se mudar para o seu novo lar!</p>
+          </figure>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <figure>
+        <img src="assets/seucorretor_logo_branco.jpg"/>
+      </figure>
+      <p>Copyright &copy; 2022 Seu Corretor. Todos os direitos reservados - site por &#160; <a href="https://portifolio-anacmas.vercel.app/" target="_blank">Ana C. Milos</a></p>
+    </footer>
+
+    <script>
+      function goTo(id) {
+        const element = document.getElementById(id);
+        element.scrollIntoView();
+      }
+    </script>
+
+  </body>
+</html>
+
